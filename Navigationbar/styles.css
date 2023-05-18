@@ -244,4 +244,24 @@ nav {
     .social-icons a:hover {
         color: var(--clr-primary-7);
     }
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #222;
+        width: 0%;
+        height: 100%;
+        transition: 0.3s;
+    }
+    .sidebarheader {
+        position: relative;
+        text-align: right;
+    }
+    .show-sidebar {
+        width: 20%;
+    }
+    .sidebarbtn {
+        width: 3rem;
+        height: 3rem;
+    }
 }
